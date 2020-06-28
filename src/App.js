@@ -1,11 +1,26 @@
 import React from 'react';
 import './App.css';
-import Title from './components/Title'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Route from 'react-router-dom/Route'
+import Home from './components/Home/index'
+import Matrimonial from './components/Matrimonial/index'
 
 function App() {
   return (
     <div className="Title">
-        <Title/>
+      <Router>
+        <Route path="/" exact render={
+          () => {
+            return (<Home></Home>);
+          }
+        } />
+
+        <Route path="/matrimonial" exact render={
+          () => {
+            return (<Matrimonial></Matrimonial>);
+          }
+        } />
+      </Router>
     </div>
   );
 }
