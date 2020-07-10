@@ -77,17 +77,6 @@ class MatrimonialForm extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav class="navbar navbar-default">
-					<div class="container-fluid">
-						<ul class="nav navbar-nav">
-							<li><a href="/">Home</a></li>
-							<li><a href="/matrimonial">Matrimonial</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Aims and Objectives</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-					</div>
-				</nav>
 				<div>
 					<h4>Please fill the following details :</h4>
 					<h6>(All fields are mandatory)</h6><br />
