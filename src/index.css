@@ -18,6 +18,13 @@ code {
     min-width: 55%;
 }
 
+.audio{
+  width:54%;
+}
+.kalash{
+  width: 18%;
+    margin-left: 116%;
+}
 /* Styling for advertisements */
 .ad1 {
   float: left;

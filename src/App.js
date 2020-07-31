@@ -7,10 +7,15 @@ import Matrimonial from './components/Matrimonial/index'
 import AboutUs from './components/AboutUs/About';
 import Navigation from './components/NavigatioBar/NavBar';
 import Search from './components/Search/Search';
+import MediaCard from './components/CommitteeMembers/memberDetail.js'
+
+
 
 function App() {
   return (
     <div className="Title">
+    
+       {/* <NavBar></NavBar> */}
       <Navigation></Navigation>
       <Router>
         <Route path="/" exact render={
@@ -18,7 +23,6 @@ function App() {
             return (<Home></Home>);
           }
         } />
-
         <Route path="/matrimonial" exact render={
           () => {
             return (<Matrimonial></Matrimonial>);
@@ -34,6 +38,12 @@ function App() {
             return (<Search></Search>);
           }
         } />
+        <Route path="/memberDetails" exact render={
+          () => {
+            return (<MediaCard></MediaCard>);
+          }
+        } />
+        
       </Router>
     </div>
   );

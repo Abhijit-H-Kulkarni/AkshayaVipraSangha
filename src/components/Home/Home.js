@@ -13,7 +13,12 @@ class Home extends React.Component {
 				<div class="Main-Content">
 					{/* <h2 class="root">The main content goes here.</h2> */}
 					<img class="img-fluid gayatriDevi" src="images/gayatriMantra.jpg" alt="Image Unavailable" />
+					
 				</div>
+				<audio class="audio" controls> 
+						<source  src="images/gayatri-mantra-raga-1.mp3" type="audio/mpeg"></source>
+						{/* <source src="horse.mp3" type="audio/mpeg">rowser does not support the audio element. */}
+					</audio>
 				<h6 class="copyright"> &copy; Akshaya Vipra Sangha 2020</h6>
 			</div>
 		);
