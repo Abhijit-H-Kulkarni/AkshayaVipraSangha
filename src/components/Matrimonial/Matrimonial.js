@@ -293,7 +293,7 @@ class MatrimonialForm extends React.Component {
 						</form>
 					</div>
 				</div>
-				<h6> &copy; Akshaya Vipra Sangha 2020</h6>
+				{/* <h6> &copy; Akshaya Vipra Sangha 2020</h6> */}
 			</div>
 		);
 	}

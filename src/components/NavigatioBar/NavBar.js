@@ -26,7 +26,7 @@ class Navigation extends React.Component{
 							<li><a href="/contact">Members Directory</a></li>
 							<li><a href="#">Gallery</a></li>
 							<li><a href="/matrimonial">Matrimonial</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="/contactUs">Contact Us</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

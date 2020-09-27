@@ -30,11 +30,6 @@ large: {
 width:theme.spacing(14),
 height:theme.spacing(14),
     },
-content: {
-marginTop:theme.spacing(1),
-
-
-    },
   })
 );
 const leftRightMargin={
@@ -45,7 +40,7 @@ const leftRightMargin={
 }
 const colWidth={
 "width":"15%",
-"margin-top":"2%"
+"margin-top":"1%"
 }
 const members=memberDetail;
 const classes=useStyles();

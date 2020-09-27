@@ -8,6 +8,8 @@ import AboutUs from './components/AboutUs/About';
 import Navigation from './components/NavigatioBar/NavBar';
 import Search from './components/Search/Search';
 import MediaCard from './components/CommitteeMembers/memberDetail.js'
+import ContactUs from './components/contactUs/contact';
+import Objectives from './components/AimsObjectives/objective';
 
 
 
@@ -33,6 +35,11 @@ function App() {
             return (<AboutUs></AboutUs>);
           }
         } />
+        <Route path="/contactUs" exact render={
+          () => {
+            return (<ContactUs></ContactUs>);
+          }
+        } />
         <Route path="/contact" exact render={
           () => {
             return (<Search></Search>);
@@ -41,6 +48,11 @@ function App() {
         <Route path="/memberDetails" exact render={
           () => {
             return (<MediaCard></MediaCard>);
+          }
+        } />
+        <Route path="/objectives" exact render={
+          () => {
+            return (<Objectives></Objectives>);
           }
         } />
         
